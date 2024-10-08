@@ -1,0 +1,6 @@
+person_id,first_name,last_name,email,phone_number
+1,John,Doe,johndoe@example.com,555-123-4567
+2,Jane,Smith,janesmith@example.com,555-987-6543
+3,Robert,Johnson,robertjohnson@example.com,555-234-5678
+4,Emily,Wilson,emilywilson@example.com,555-876-5432
+5,Michael,Brown,michaelbrown@example.com,555-345-6789
