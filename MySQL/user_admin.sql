@@ -14,3 +14,12 @@ GRANT ALL PRIVILEGES ON xml_loader_example.* TO 'xml_loader_example_user'@'%';
 
 -- Flush privileges to ensure the changes take effect
 FLUSH PRIVILEGES;
+
+-------------------------------------------------------------------------------
+-- More Examples
+-------------------------------------------------------------------------------
+CREATE USER 'davidrh'@'localhost' IDENTIFIED BY 'password';
+ALTER USER 'davidrh'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+CREATE DATABASE david;
+GRANT ALL PRIVILEGES ON david.* TO 'davidrh'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
