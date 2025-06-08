@@ -31,6 +31,7 @@ SELECT table_schema,
 	   table_size,
 	   pg_size_pretty(table_size) AS table_size_pretty
   FROM table_data
+ WHERE table_schema NOT IN ('information_schema','pg_catalog')
  ORDER BY table_size
 ;
 
